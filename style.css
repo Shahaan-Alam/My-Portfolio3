@@ -10,3 +10,9 @@
   font-weight: 400px;
   font-style: normal;
 }
+
+@keyframes colorChanging {
+  0% {
+    background-color: #6096ba;
+  }
+}
