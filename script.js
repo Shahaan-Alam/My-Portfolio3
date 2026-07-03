@@ -10,7 +10,7 @@ function changeColor() {
     // 2. Bonus: Swap the toggle image asset when clicked!
     if (rootElement.classList.contains("dark")) {
         toggleImg.src = "Images/toggleOn.png";
-        logo.src = "Images/Logos/8.png"
+        logo.src = "Images/8.png"
     } else {
         toggleImg.src = "Images/toggleOff.png";
         logo.src = "Images/logo.png"
