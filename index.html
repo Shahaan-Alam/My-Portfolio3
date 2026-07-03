@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,29 +10,148 @@
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = { darkMode: 'class' }
+    </script>
 </head>
-<body class="outfit bg-[#1C1124] text-[#ffffff]">
+<body class="outfit bg-[#dad7cd] text-[#ffffff] dark:bg-[#100C08] dark:text-[#ffffff]">
 
-    <!-- <header id="header" class="flex justify-center align-center items-center flex-col m-4">
-        <img src="Images/Banner.jpg" id="ProfileImage" class="h-[90vh] w-[95vw] rounded-[20px]" alt="Profile picture">
-    </header> -->
-
-    <nav class="bg-[#6096ba] flex justify-around items-center m-4 p-3 rounded-[20px] transition-all duration-200 hover:scale-y-110 hover:bg-[#274c77]">
-        <img src="Images/logo.png" alt="Logo" id="Logo" class="h-[7vh] w-[3.5vw] rounded-[50%] transition-all duration-200 hover:scale-110">
+    <nav class="bg-[#344e41] flex justify-around items-center m-4 p-3 rounded-[20px] transition-all duration-200 hover:scale-[1.02] dark:bg-[#32174D]">
+        <img src="Images/logo.png" alt="Logo" id="Logo" class="h-[7vh] w-[3.3vw] rounded-[50%] transition-all duration-200 hover:scale-110">
         <a href="#Introduction" class="transition-all duration-200 hover:scale-110">About Me</a>
-        <a href="" class="transition-all duration-200 hover:scale-110">Skills</a>
-        <a href="" class="transition-all duration-200 hover:scale-110">Projects</a>
-        <a href="" class="transition-all duration-200 hover:scale-110">Contact Me</a>
+        <a href="#Skills" class="transition-all duration-200 hover:scale-110">Skills</a>
+        <a href="#Projects" class="transition-all duration-200 hover:scale-110">Projects</a>
+        <a href="#Contact" class="transition-all duration-200 hover:scale-110">Contact Me</a>
+        <a href="#SSI" class="transition-all duration-200 hover:scale-110">SSI</a>
     </nav>
 
     <main>
         
         <section id="Introduction">
-            <h1 class="text-center bg-[#D4A373] p-3 m-4 rounded-[20px]">Introduction</h1>
-            <div class="bg-[#3D3835] p-3 m-4 rounded-[20px]">Asslam O Alikum. My name is, you know, Shahaan Alam. I am living on this planet from almost 14 years</div>
+            <h1 class="text-center bg-[#588157] p-3 m-4 rounded-[20px] transition-all duration-200 hover:scale-[1.02] text-5xl dark:bg-[#36454F]">Introduction</h1>
+            <div class="flex">
+                <div class="bg-[#588157] dark:bg-[#36454F] p-3 m-4 rounded-[20px] transition-all duration-200 hover:scale-[1.02]">
+                    Asslam O Alikum. My name is, you know, Muhammud Shahaan Alam. I am living on this planet from almost 14 years. I was born on <b>June 17, 2012 CE or Rajab 27, 1433 AH </b> 
+                    I belong to a brown famiy with a Mughal Background. I study in 9th Grade and choose Computer Science as an option to study in and also willing to pursue it in future
+                    too. I love to learn about my religion too and try to imply all the teachings of Prophet Muhammad (SAW) in daily life and advice you to apply all that too. I don't have 
+                    that much confidence before but you know changes are important part of your meaningful life. See consistency is the key to success but for a beautiful life, you have to 
+                    sometimes go against the rules and honestly, it doesn't even that bad. After that, I like to learn on my own AKA self-paced learning because of curiosity. I know that 
+                    curiosity is the most dangerous thing but when you have Tawakkul on Allah SWT, nothing can harm you. My favourite subjects are "Math, Computer and Physics". I am not 
+                    even writing an essay in which I must have to tell you about everything. So, if you want to know more about me, Contact me or ask me in real-time.
+                </div>
+                <img src="Images/ProfilePic.jpeg" alt="Profile Image" class="h-[300px] w-[220px] rounded-[20px] m-4 transition-all duration-200 hover:scale-[1.02]">
+            </div>
+            <div class="flex justify-around">
+                <div id="Hobbies" class="bg-[#a3b18a] dark:bg-[#343434] m-4 p-3 rounded-[20px] text-center transition-all duration-200 hover:scale-[1.02]">Hobbies
+                    <ul class="list-disc list-inside mt-2 text-left font-bold">
+                        <li>Programming/Learning</li>
+                        <li>Learning Islam</li>
+                        <li>Watching Sky</li>
+                        <li>Playing Chess</li>
+                    </ul>
+                </div>
+                <div class="bg-[#a3b18a] dark:bg-[#343434] m-4 p-3 rounded-[20px] text-center transition-all duration-200 hover:scale-[1.02]"></div>
+                <div id="Traits" class="bg-[#a3b18a] dark:bg-[#343434] m-4 p-3 rounded-[20px] text-center transition-all duration-200 hover:scale-[1.02]">Traits
+                    <ul class="list-disc list-inside mt-2 text-left font-bold">
+                        <li>Patient <abbr title="I think so">(ITS)</abbr></li>
+                        <li>Confident <abbr title="I think so">(ITS)</abbr></li>
+                        <li>Loyal</li>
+                        <li>Doesn't get angry fast</li>
+                        <li>Chill</li>
+                    </ul>
+                </div>
+                <div class="bg-[#a3b18a] dark:bg-[#343434] m-4 p-3 rounded-[20px] text-center transition-all duration-200 hover:scale-[1.02]"></div>
+                <div id="Favourites" class="bg-[#a3b18a] dark:bg-[#343434] m-4 p-3 rounded-[20px] text-center transition-all duration-200 hover:scale-[1.02]">Favourites
+                    <ul class="list-disc list-inside mt-2 text-left font-bold">
+                        <li>Name: Muhammad</li>
+                        <li>Color: Purple</li>
+                        <li>Food: Biryani</li>
+                        <li>Fruit: All</li>
+                        <li>Weather: All</li>
+                    </ul>
+                </div>
+            </div>
         </section>
 
+        <section id="Skills">
+            <h1 class="bg-[#588157] dark:bg-[#36454F] m-4 p-3 rounded-[20px] text-center transition-all duration-200 hover:scale-[1.02] text-5xl">Skills</h1>
+            <div class="bg-[#588157] dark:bg-[#36454F] m-4 p-3 rounded-[20px] text-center transition-all duration-200 hover:scale-[1.02]">
+                See, I got some skills too But don't know how to define it like I can work on different computer languages 
+                that you can see below. After all, this whole profile is also the part of my Skills. I like to make Projects
+                that you can also see below. I like to help others, So if you want any help in the field of Computer Science, 
+                I can give you my best.
+            </div>
+            <div class="flex justify-around">
+                <div class="bg-[#a3b18a] dark:bg-[#343434] m-4 p-3 rounded-[20px] text-center transition-all duration-200 hover:scale-110">
+                    <img src="Images/HTML.png" alt="HTML image">
+                    HTML
+                </div>
+                <div class="bg-[#a3b18a] dark:bg-[#343434] m-4 p-3 rounded-[20px] text-center transition-all duration-200 hover:scale-110">
+                    <img src="Images/CSS.png" alt="CSS image">
+                    CSS
+                </div>
+                <div class="bg-[#a3b18a] dark:bg-[#343434] m-4 p-3 rounded-[20px] text-center transition-all duration-200 hover:scale-110">
+                    <img src="Images/JS.png" alt="JS image">
+                    JavaScript
+                </div>
+                <div class="bg-[#a3b18a] dark:bg-[#343434] m-4 p-3 rounded-[20px] text-center transition-all duration-200 hover:scale-110">
+                    <img src="Images/Python.png" alt="Python image">
+                    Python
+                </div>
+            </div>
+        </section>
+
+        <section id="Projects">
+            <h1 class="bg-[#588157] dark:bg-[#36454F] m-4 p-3 rounded-[20px] text-center transition-all duration-200 hover:scale-[1.02] text-5xl">Projects</h1>
+            <div class="flex justify-around">
+                <a href="https://shahaan-alam.github.io/Cat-Facts-App/" class="bg-[#a3b18a] dark:bg-[#343434] w-[300px] m-4 p-6 rounded-[20px] text-center transition-all duration-200 hover:scale-110 text-5xl">
+                    Cat Facts Project
+                </a>
+            </div>
+        </section>
+
+        <section id="Contact">
+            <h1 class="bg-[#588157] dark:bg-[#36454F] m-4 p-3 rounded-[20px] text-center transition-all duration-200 hover:scale-[1.02] text-5xl">Contact Me</h1>
+            <div class="flex justify-around">
+                <a href="mailto:.com?subject=Hello Shahaan!" class="bg-[#344e41] h-[60px] w-[300px] m-4 p-3 rounded-[20px] text-center transition-all duration-200 hover:scale-110 hover:bg-[#ffffff] hover:text-[#344e41] text-3xl dark:bg-[#32174D] dark:hover:bg-[#ffffff] dark:hover:bg-[#32174D]">
+                    Email Me
+                </a>
+
+                <a href="tel:" class="bg-[#344e41] h-[60px] w-[300px] m-4 p-3 rounded-[20px] text-center transition-all duration-200 hover:scale-110 hover:bg-[#ffffff] hover:text-[#344e41] text-3xl dark:bg-[#32174D] dark:hover:bg-[#ffffff]">
+                    Contact Me
+                </a>
+            </div>
+        </section>
+
+        <section id="SSI">
+            <h1 class="bg-[#588157] dark:bg-[#36454F] m-4 p-3 rounded-[20px] text-center transition-all duration-200 hover:scale-[1.02] text-5xl">Some Special Information</h1>
+            <div class="bg-[#588157] dark:bg-[#36454F] m-4 p-3 rounded-[20px] text-center transition-all duration-200 hover:scale-[1.02]">
+                The below Logos are also mine. You see all these logos in all my Projects as these are created to match the background color of project.
+            </div>
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 m-4 justify-items-center">
+                <img src="Images/Logos/1.png" alt="" class="h-[100px] w-[100px] rounded-[50%] transition-all hover:scale-110">
+                <img src="Images/Logos/2.png" alt="" class="h-[100px] w-[100px] rounded-[50%] transition-all hover:scale-110">
+                <img src="Images/Logos/3.png" alt="" class="h-[100px] w-[100px] rounded-[50%] transition-all hover:scale-110">
+                <img src="Images/Logos/4.png" alt="" class="h-[100px] w-[100px] rounded-[50%] transition-all hover:scale-110">
+                <img src="Images/Logos/11.png" alt="" class="h-[100px] w-[100px] rounded-[50%] transition-all hover:scale-110">
+                <img src="Images/Logos/10.png" alt="" class="h-[100px] w-[100px] rounded-[50%] transition-all hover:scale-110">
+                <img src="Images/Logos/6.png" alt="" class="h-[100px] w-[100px] rounded-[50%] transition-all hover:scale-110">
+                <img src="Images/Logos/7.png" alt="" class="h-[100px] w-[100px] rounded-[50%] transition-all hover:scale-110">
+                <img src="Images/Logos/8.png" alt="" class="h-[100px] w-[100px] rounded-[50%] transition-all hover:scale-110">
+                <img src="Images/Logos/9.png" alt="" class="h-[100px] w-[100px] rounded-[50%] transition-all hover:scale-110">
+            </div>
+        </section>
+
+        <button id="toggleButton" class="bg-[#a3b18a] dark:bg-[#32174D] p-[2px] rounded-[10px] fixed right-4 bottom-4 hover:scale-110 transition-all duration-200">
+            <img src="Images/toggleOff.png" alt="" id="toggle">
+        </button>
     </main>
 
+    <script src="script.js"></script>
+
+    <footer class="bg-[#343434] h-15 text-center p-3">
+        <h3>Created by Own Hands &lt;/&gt;,  helped by Gemini &#10022;</h3>
+        <h3>&copy; All rights are preserved.</h3>
+    </footer>
 </body>
 </html>
