@@ -13,6 +13,7 @@ function changeColor() {
         logo.src = "Images/Logos/8.png"
     } else {
         toggleImg.src = "Images/toggleOff.png";
+        logo.src = "Images/logo.png"
     }
 }
 
