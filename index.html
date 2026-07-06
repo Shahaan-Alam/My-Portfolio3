@@ -16,8 +16,8 @@
 </head>
 <body class="outfit bg-[#dad7cd] text-[#ffffff] dark:bg-[#100C08] dark:text-[#ffffff]">
 
-    <nav class="bg-[#344e41] flex justify-around items-center m-4 p-3 rounded-[20px] transition-all duration-200 hover:scale-[1.02] dark:bg-[#32174D]">
-        <img src="Images/logo.png" alt="Logo" id="Logo" class="h-[7vh] w-[3.3vw] rounded-[50%] transition-all duration-200 hover:scale-110">
+    <nav class="bg-[#344e41] flex flex-col gap-3 md:flex-row justify-around items-center m-4 p-3 rounded-[20px] transition-all duration-200 hover:scale-[1.02] dark:bg-[#32174D]">
+        <img src="Images/logo.png" alt="Logo" id="Logo" class="hidden md:block h-12 w-12 rounded-[50%] transition-all duration-200 hover:scale-110">
         <a href="#Introduction" class="transition-all duration-200 hover:scale-110">About Me</a>
         <a href="#Skills" class="transition-all duration-200 hover:scale-110">Skills</a>
         <a href="#Projects" class="transition-all duration-200 hover:scale-110">Projects</a>
@@ -28,7 +28,7 @@
         
         <section id="Introduction">
             <h1 class="text-center bg-[#588157] p-3 m-4 rounded-[20px] transition-all duration-200 hover:scale-[1.02] text-5xl dark:bg-[#36454F]">Introduction</h1>
-            <div class="flex">
+            <div class="flex flex-col-reverse md:flex-row items-center justify-center md:items-start">
                 <div class="bg-[#588157] dark:bg-[#36454F] p-3 m-4 rounded-[20px] transition-all duration-200 hover:scale-[1.02]">
                     Asslam O Alikum. My name is, you know, Muhammud Shahaan Alam. I am living on this planet from almost 14 years. I was born on <b>June 17, 2012 CE or Rajab 27, 1433 AH </b> 
                     I belong to a brown famiy with a Mughal Background. I study in 9th Grade and choose Computer Science as an option to study in and also willing to pursue it in future
@@ -40,7 +40,7 @@
                 </div>
                 <img src="Images/ProfilePic.jpeg" alt="Profile Image" class="h-[300px] w-[220px] rounded-[20px] m-4 transition-all duration-200 hover:scale-[1.02]">
             </div>
-            <div class="flex justify-around">
+            <div class="flex flex-col md:flex-row justify-around gap-4 p-2">
                 <div id="Hobbies" class="bg-[#a3b18a] dark:bg-[#343434] m-4 p-3 rounded-[20px] text-center transition-all duration-200 hover:scale-[1.02]">Hobbies
                     <ul class="list-disc list-inside mt-2 text-left font-bold">
                         <li>Programming/Learning</li>
@@ -73,28 +73,21 @@
         </section>
 
         <section id="Skills">
-            <h1 class="bg-[#588157] dark:bg-[#36454F] m-4 p-3 rounded-[20px] text-center transition-all duration-200 hover:scale-[1.02] text-5xl">Skills</h1>
-            <div class="bg-[#588157] dark:bg-[#36454F] m-4 p-3 rounded-[20px] text-center transition-all duration-200 hover:scale-[1.02]">
-                See, I got some skills too But don't know how to define it like I can work on different computer languages 
-                that you can see below. After all, this whole profile is also the part of my Skills. I like to make Projects
-                that you can also see below. I like to help others, So if you want any help in the field of Computer Science, 
-                I can give you my best.
-            </div>
-            <div class="flex justify-around">
-                <div class="bg-[#a3b18a] dark:bg-[#343434] m-4 p-3 rounded-[20px] text-center transition-all duration-200 hover:scale-110">
-                    <img src="Images/HTML.png" alt="HTML image">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 m-4 justify-items-center">
+                <div class="bg-[#a3b18a] dark:bg-[#343434] w-full max-w-[280px] p-4 rounded-[20px] text-center transition-all duration-200 hover:scale-105">
+                    <img src="Images/HTML.png" alt="HTML image" class="mx-auto h-20 object-contain mb-2">
                     HTML
                 </div>
-                <div class="bg-[#a3b18a] dark:bg-[#343434] m-4 p-3 rounded-[20px] text-center transition-all duration-200 hover:scale-110">
-                    <img src="Images/CSS.png" alt="CSS image">
+                <div class="bg-[#a3b18a] dark:bg-[#343434] w-full max-w-[280px] p-4 rounded-[20px] text-center transition-all duration-200 hover:scale-105">
+                    <img src="Images/CSS.png" alt="CSS image" class="mx-auto h-20 object-contain mb-2">
                     CSS
                 </div>
-                <div class="bg-[#a3b18a] dark:bg-[#343434] m-4 p-3 rounded-[20px] text-center transition-all duration-200 hover:scale-110">
-                    <img src="Images/JS.png" alt="JS image">
+                <div class="bg-[#a3b18a] dark:bg-[#343434] w-full max-w-[280px] p-4 rounded-[20px] text-center transition-all duration-200 hover:scale-105">
+                    <img src="Images/JS.png" alt="JS image" class="mx-auto h-20 object-contain mb-2">
                     JavaScript
                 </div>
-                <div class="bg-[#a3b18a] dark:bg-[#343434] m-4 p-3 rounded-[20px] text-center transition-all duration-200 hover:scale-110">
-                    <img src="Images/Python.png" alt="Python image">
+                <div class="bg-[#a3b18a] dark:bg-[#343434] w-full max-w-[280px] p-4 rounded-[20px] text-center transition-all duration-200 hover:scale-105">
+                    <img src="Images/Python.png" alt="Python image" class="mx-auto h-20 object-contain mb-2">
                     Python
                 </div>
             </div>
@@ -111,7 +104,7 @@
 
         <section id="Contact">
             <h1 class="bg-[#588157] dark:bg-[#36454F] m-4 p-3 rounded-[20px] text-center transition-all duration-200 hover:scale-[1.02] text-5xl">Contact Me</h1>
-            <div class="flex justify-around">
+            <div class="flex flex-col items-center md:flex-row justify-around gap-4">
                 <a href="mailto:.com?subject=Hello Shahaan!" class="bg-[#344e41] h-[60px] w-[300px] m-4 p-3 rounded-[20px] text-center transition-all duration-200 hover:scale-110 hover:bg-[#ffffff] hover:text-[#344e41] text-3xl dark:bg-[#32174D] dark:hover:bg-[#ffffff] dark:hover:bg-[#32174D]">
                     Email Me
                 </a>
